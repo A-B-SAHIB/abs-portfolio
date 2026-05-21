@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Batin Sahib — Developer & Creative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+ 
+  <!-- Scroll Progress Bar -->
+  <div id="pgbar"></div>
+ 
+  <!-- Custom Cursor -->
+  <div class="cur" id="cur"></div>
+  <div class="cur-r" id="curr"></div>
+ 
+  <!-- ═══════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════ -->
+  <nav>
+    <a class="logo" href="#hero">ABS<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Awards</a></li>
+      <li><a href="#creative">Creative</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn-hire" href="assets/resume.pdf" target="_blank">Download CV</a>
+  </nav>
+ 
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <div class="fu">
+      <div class="badge">
+        <span class="badge-dot"></span> Available for opportunities · Dhaka, Bangladesh
+      </div>
+      <h1 class="hero-name">
+        <span class="n1">Abdul Batin</span>
+        <span class="n2">Sahib.</span>
+        <span class="n3">Builder.</span>
+      </h1>
+      <p class="hero-sub">
+        CSE student at UIU · Backend developer · WSN security researcher · Founder of ABL Delight. I build things that matter.
+      </p>
+      <div class="ctas">
+        <a class="btn-p" href="#projects">View Projects ↓</a>
+        <a class="btn-o" href="#contact">Get in Touch</a>
+        <a class="btn-o" href="https://github.com/A-B-SAHIB" target="_blank">GitHub ↗</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="stat-v">3.82</div><div class="stat-l">CGPA at UIU</div></div>
+        <div><div class="stat-v">4+</div><div class="stat-l">Projects Built</div></div>
+        <div><div class="stat-v">2×</div><div class="stat-l">Project Show Awards</div></div>
+        <div><div class="stat-v">1</div><div class="stat-l">Business Founded</div></div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-grid">
+ 
+      <div class="photo-wrap fu">
+        <div class="photo-frame">
+          <img src="assets/images/profile.jpg" alt="Abdul Batin Sahib"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="photo-fallback" style="display:none;">
+            <div class="av-circle">ABS</div>
+            <span style="font-size:.8rem;">Add profile.jpg to assets/images/</span>
+          </div>
+        </div>
+        <div class="photo-badge">🎓 UIU · CSE</div>
+      </div>
+ 
+      <div class="about-text fu">
+        <div class="s-label">About Me</div>
+        <h2 class="s-title">Code, research &amp; a pinch of flour</h2>
+        <p>
+          I'm a Computer Science &amp; Engineering student at <strong>United International University</strong>
+          with a research-oriented mindset and hands-on software engineering skills. My interest spans
+          <strong>backend systems, WSN security, machine learning,</strong> and cloud-native technologies.
+        </p>
+        <p>
+          Beyond development, I founded <strong>ABL Delight</strong> — an online baking business where I
+          handle branding, marketing, and customer experience from scratch.
+        </p>
+        <p>
+          Outside of screens and ovens, I sketch, write melodies, and obsess over clean UI.
+        </p>
+        <div class="chips">
+          <span class="chip">CSE @ UIU</span>
+          <span class="chip">Backend Dev</span>
+          <span class="chip">WSN Security</span>
+          <span class="chip">ML Research</span>
+          <span class="chip">DevOps</span>
+          <span class="chip">Entrepreneur</span>
+          <span class="chip">Artist &amp; Singer</span>
+        </div>
+        <div class="edu-box">
+          <h4>Education</h4>
+          <div class="edu-row">
+            <span>B.Sc. CSE — United International University</span>
+            <span>CGPA 3.82</span>
+          </div>
+          <div class="edu-row">
+            <span>HSC — BAF Shaheen College, Jashore</span>
+            <span>GPA 5.00</span>
+          </div>
+          <div class="edu-row">
+            <span>SSC — Meherpur Govt. High School</span>
+            <span>GPA 4.78</span>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════ -->
+  <section id="skills">
+    <div class="s-label fu">What I Work With</div>
+    <h2 class="s-title fu">Tech Stack &amp; Skills</h2>
+    <div class="skills-grid">
+ 
+      <div class="sk-card fu">
+        <div class="sk-icon" style="background:rgba(79,142,247,.1); color:var(--accent);">🐍</div>
+        <h3>Backend &amp; APIs</h3>
+        <div class="pills">
+          <span class="pill">Python</span>
+          <span class="pill">Flask</span>
+          <span class="pill">FastAPI</span>
+          <span class="pill">REST API</span>
+          <span class="pill">OAuth2</span>
+          <span class="pill">WebSocket</span>
+        </div>
+      </div>
+ 
+      <div class="sk-card fu">
+        <div class="sk-icon" style="background:rgba(52,211,153,.1); color:var(--accent3);">🌐</div>
+        <h3>Frontend</h3>
+        <div class="pills">
+          <span class="pill">HTML5</span>
+          <span class="pill">CSS3</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">HTMX</span>
+          <span class="pill">Alpine.js</span>
+          <span class="pill">Tailwind CSS</span>
+        </div>
+      </div>
+ 
+      <div class="sk-card fu">
+        <div class="sk-icon" style="background:rgba(167,139,250,.1); color:var(--accent2);">🗄️</div>
+        <h3>Database &amp; Systems</h3>
+        <div class="pills">
+          <span class="pill">MySQL</span>
+          <span class="pill">Linux</span>
+          <span class="pill">Bash</span>
+          <span class="pill">xv6 OS</span>
+          <span class="pill">NS-3</span>
+        </div>
+      </div>
+ 
+      <div class="sk-card fu">
+        <div class="sk-icon" style="background:rgba(251,146,60,.1); color:#fb923c;">🚀</div>
+        <h3>DevOps &amp; Cloud</h3>
+        <div class="pills">
+          <span class="pill">Docker</span>
+          <span class="pill">GitHub Actions</span>
+          <span class="pill">Git</span>
+          <span class="pill">Vercel</span>
+          <span class="pill">WSL</span>
+        </div>
+      </div>
+ 
+      <div class="sk-card fu">
+        <div class="sk-icon" style="background:rgba(244,63,94,.1); color:#f43f5e;">🔬</div>
+        <h3>Research &amp; Security</h3>
+        <div class="pills">
+          <span class="pill">WSN Security</span>
+          <span class="pill">Machine Learning</span>
+          <span class="pill">Networking</span>
+          <span class="pill">Malicious Node Detection</span>
+          <span class="pill">Green Computing</span>
+        </div>
+      </div>
+ 
+      <div class="sk-card fu">
+        <div class="sk-icon" style="background:rgba(79,142,247,.1); color:var(--accent);">🎨</div>
+        <h3>Tools &amp; Design</h3>
+        <div class="pills">
+          <span class="pill">Figma</span>
+          <span class="pill">VS Code</span>
+          <span class="pill">GitHub</span>
+          <span class="pill">Ubuntu</span>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════ -->
+  <section id="projects">
+    <div class="s-label fu">What I've Built</div>
+    <h2 class="s-title fu">Featured Projects</h2>
+    <div class="proj-grid">
+ 
+      <div class="proj-card fu">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#0a1929,#0d2d4a);">💼</div>
+        <div class="proj-body">
+          <span class="proj-cat">Full Stack</span>
+          <h3>HireMe — Job Matching Platform</h3>
+          <p>A comprehensive recruitment platform with real-time video interviews, technical exams, intelligent job matching, and multi-role support for candidates, employers, and interviewers.</p>
+          <div class="proj-foot">
+            <div style="display:flex;gap:.35rem;flex-wrap:wrap;">
+              <span class="pt">Flask</span>
+              <span class="pt">MySQL</span>
+              <span class="pt">HTMX</span>
+              <span class="pt">SocketIO</span>
+            </div>
+            <a class="proj-link" href="https://github.com/Knocktern/HireMe" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="proj-card fu">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#0f1a0a,#1a3310);">📡</div>
+        <div class="proj-body">
+          <div class="wip-badge">⚡ FYDP — In Progress</div>
+          <h3>SecureWSN — ML-Based WSN Security</h3>
+          <p>Final Year Design Project: An ML-driven routing protocol for Wireless Sensor Networks that detects and mitigates malicious node attacks while optimising energy efficiency.</p>
+          <div class="proj-foot">
+            <div style="display:flex;gap:.35rem;flex-wrap:wrap;">
+              <span class="pt">NS-3</span>
+              <span class="pt">Python</span>
+              <span class="pt">ML</span>
+              <span class="pt">WSN</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="proj-card fu">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#0d1a10,#1a3322);">🌿</div>
+        <div class="proj-body">
+          <div class="wip-badge">⚡ In Progress</div>
+          <h3>Green Computing Project</h3>
+          <p>Researching and implementing energy-efficient computing strategies to reduce environmental impact in distributed systems and data centres.</p>
+          <div class="proj-foot">
+            <div style="display:flex;gap:.35rem;flex-wrap:wrap;">
+              <span class="pt">Python</span>
+              <span class="pt">Research</span>
+              <span class="pt">Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="proj-card fu">
+        <div class="proj-thumb" style="background:linear-gradient(135deg,#1a0d0a,#331a12);">🍰</div>
+        <div class="proj-body">
+          <span class="proj-cat">Business &amp; Branding</span>
+          <h3>ABL Delight — Online Baking Business</h3>
+          <p>Founded and manage a small online baking business — designed the brand identity, ran social media campaigns, handled customer orders and marketing content.</p>
+          <div class="proj-foot">
+            <div style="display:flex;gap:.35rem;flex-wrap:wrap;">
+              <span class="pt">Branding</span>
+              <span class="pt">Marketing</span>
+              <span class="pt">Figma</span>
+            </div>
+            <a class="proj-link" href="https://www.facebook.com/profile.php?id=61569430600485" target="_blank">Visit Page ↗</a>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════
+       ACHIEVEMENTS
+  ═══════════════════════════════════════ -->
+  <section id="achievements">
+    <div class="s-label fu">Recognition</div>
+    <h2 class="s-title fu">Awards &amp; Certificates</h2>
+    <p class="fu" style="color:var(--muted); max-width:520px; margin-bottom:.5rem; font-size:.95rem;">
+      Recognitions from university project shows and professional development programmes.
+    </p>
+ 
+    <!-- AWARDS -->
+    <div class="ach-section-label fu">🏆 Project Show Awards — UIU</div>
+    <div class="ach-img-grid">
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/award-1st-runners-up.jpg',
+          '1st Runners Up — Software Engineering',
+          'UIU Project Show · Software Engineering Category')">
+        <div class="ach-img-wrap">
+          <img src="assets/images/award-1st-runners-up.jpg" alt="1st Runners Up Award"
+            onerror="this.src=''; this.alt='Photo coming soon';" />
+          <div class="ach-img-overlay"><span>View Photo ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge award">🥈 1st Runners Up</div>
+          <h3>Software Engineering Category</h3>
+          <p>UIU Project Show — HireMe Platform</p>
+        </div>
+      </div>
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/award-2nd-runners-up.jpg',
+          '2nd Runners Up — FYDP Phase 1',
+          'UIU Project Show · Final Year Design Project')">
+        <div class="ach-img-wrap">
+          <img src="assets/images/award-2nd-runners-up.jpg" alt="2nd Runners Up Award"
+            onerror="this.src=''; this.alt='Photo coming soon';" />
+          <div class="ach-img-overlay"><span>View Photo ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge award">🥉 2nd Runners Up</div>
+          <h3>Final Year Design Project</h3>
+          <p>UIU Project Show — SecureWSN (Phase 1)</p>
+        </div>
+      </div>
+ 
+    </div>
+ 
+    <!-- CERTIFICATES -->
+    <div class="ach-section-label fu" style="margin-top:3rem;">📜 Grameenphone Academy Certificates</div>
+    <div class="ach-img-grid">
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/cert-gp-1.jpg',
+          'LinkedIn 101',
+          'Grameenphone Academy · Professional Development')">
+        <div class="ach-img-wrap cert">
+          <img src="assets/images/cert-gp-1.jpg" alt="LinkedIn 101 Certificate"
+            onerror="this.src=''; this.alt='Certificate coming soon';" />
+          <div class="ach-img-overlay"><span>View Certificate ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge cert">📜 Certificate</div>
+          <h3>LinkedIn 101</h3>
+          <p>Grameenphone Academy</p>
+        </div>
+      </div>
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/cert-gp-2.jpg',
+          'Corporate Presentation Skills',
+          'Grameenphone Academy · Professional Development')">
+        <div class="ach-img-wrap cert">
+          <img src="assets/images/cert-gp-2.jpg" alt="Corporate Presentation Skills Certificate"
+            onerror="this.src=''; this.alt='Certificate coming soon';" />
+          <div class="ach-img-overlay"><span>View Certificate ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge cert">📜 Certificate</div>
+          <h3>Corporate Presentation Skills</h3>
+          <p>Grameenphone Academy</p>
+        </div>
+      </div>
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/cert-gp-3.jpg',
+          'Smart CV',
+          'Grameenphone Academy · Professional Development')">
+        <div class="ach-img-wrap cert">
+          <img src="assets/images/cert-gp-3.jpg" alt="Smart CV Certificate"
+            onerror="this.src=''; this.alt='Certificate coming soon';" />
+          <div class="ach-img-overlay"><span>View Certificate ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge cert">📜 Certificate</div>
+          <h3>Smart CV</h3>
+          <p>Grameenphone Academy</p>
+        </div>
+      </div>
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/cert-gp-4.jpg',
+          'Art of Communication',
+          'Grameenphone Academy · Professional Development')">
+        <div class="ach-img-wrap cert">
+          <img src="assets/images/cert-gp-4.jpg" alt="Art of Communication Certificate"
+            onerror="this.src=''; this.alt='Certificate coming soon';" />
+          <div class="ach-img-overlay"><span>View Certificate ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge cert">📜 Certificate</div>
+          <h3>Art of Communication</h3>
+          <p>Grameenphone Academy</p>
+        </div>
+      </div>
+ 
+      <div class="ach-img-card fu"
+        onclick="openLightbox(
+          'assets/images/cert-gp-5.jpg',
+          'Sharpen Your Interview Skills',
+          'Grameenphone Academy · Professional Development')">
+        <div class="ach-img-wrap cert">
+          <img src="assets/images/cert-gp-5.jpg" alt="Sharpen Your Interview Skills Certificate"
+            onerror="this.src=''; this.alt='Certificate coming soon';" />
+          <div class="ach-img-overlay"><span>View Certificate ↗</span></div>
+        </div>
+        <div class="ach-img-body">
+          <div class="ach-badge cert">📜 Certificate</div>
+          <h3>Sharpen Your Interview Skills</h3>
+          <p>Grameenphone Academy</p>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div class="lb-inner" onclick="event.stopPropagation()">
+      <button class="lb-close" onclick="closeLightbox()">✕</button>
+      <img id="lb-img" src="" alt="" />
+      <div class="lb-caption">
+        <h3 id="lb-title"></h3>
+        <p id="lb-sub"></p>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ═══════════════════════════════════════
+       CREATIVE
+  ═══════════════════════════════════════ -->
+  <section id="creative">
+    <div class="s-label fu">Beyond Development</div>
+    <h2 class="s-title fu">The Other Side of Me</h2>
+    <p class="fu" style="color:var(--muted); max-width:520px; margin-bottom:.5rem; font-size:.95rem;">
+      The best developers are creative thinkers. Here's what keeps me inspired.
+    </p>
+    <div class="creative-grid">
+      <div class="cr-card fu">
+        <span class="cr-icon">🎵</span>
+        <h3>Music &amp; Singing</h3>
+        <p>Singing is my reset button — melody clears the mind and sparks creativity.</p>
+      </div>
+      <div class="cr-card fu">
+        <span class="cr-icon">🎨</span>
+        <h3>Art &amp; Sketching</h3>
+        <p>I sketch to think visually — it feeds directly into how I design UIs.</p>
+      </div>
+      <div class="cr-card fu">
+        <span class="cr-icon">🍰</span>
+        <h3>ABL Delight</h3>
+        <p>Founder of a small baking business — where creativity meets real-world entrepreneurship.</p>
+        <a href="https://www.facebook.com/profile.php?id=61569430600485" target="_blank">View Page ↗</a>
+      </div>
+      <div class="cr-card fu">
+        <span class="cr-icon">✏️</span>
+        <h3>Poster &amp; UI Design</h3>
+        <p>Designing visuals and interfaces that are both beautiful and purposeful.</p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════ -->
+  <section id="contact">
+    <div class="s-label fu">Get In Touch</div>
+    <h2 class="s-title fu">Let's Work Together</h2>
+    <div class="contact-inner">
+ 
+      <div class="contact-left fu">
+        <p>Have a project in mind, want to collaborate, or just want to say hi? My inbox is always open.</p>
+        <div class="contact-info">
+          <a class="ci-row" href="mailto:absahib2003@gmail.com">
+            <span class="ci-ico">📧</span>
+            <div><span class="ci-lbl">Email</span>absahib2003@gmail.com</div>
+          </a>
+          <a class="ci-row" href="https://wa.me/8801920383220" target="_blank">
+            <span class="ci-ico">💬</span>
+            <div><span class="ci-lbl">WhatsApp</span>+880 1920 383 220</div>
+          </a>
+          <div class="ci-row" style="cursor:default;">
+            <span class="ci-ico">📍</span>
+            <div><span class="ci-lbl">Location</span>Dhaka, Bangladesh</div>
+          </div>
+          <div class="ci-row" style="cursor:default; border-color:rgba(52,211,153,.2);">
+            <span class="ci-ico">🟢</span>
+            <div><span class="ci-lbl">Status</span>Available for work &amp; collaborations</div>
+          </div>
+        </div>
+        <div class="social-row">
+          <a class="soc-btn" href="https://github.com/A-B-SAHIB" target="_blank">🐙 GitHub</a>
+          <a class="soc-btn" href="https://www.linkedin.com/in/abdul-batin-sahib-603911337/" target="_blank">💼 LinkedIn</a>
+          <a class="soc-btn" href="https://www.facebook.com/absahib.sahib.9" target="_blank">📘 Facebook</a>
+          <a class="soc-btn" href="https://www.instagram.com/absahib5" target="_blank">📸 Instagram</a>
+        </div>
+      </div>
+ 
+      <div class="fu">
+        <form class="cf" id="contact-form">
+          <div class="fg">
+            <label for="cf-name">Your Name</label>
+            <input id="cf-name" type="text" placeholder="Your name..." required />
+          </div>
+          <div class="fg">
+            <label for="cf-email">Email Address</label>
+            <input id="cf-email" type="email" placeholder="your_mail@gmail.com" required />
+          </div>
+          <div class="fg">
+            <label for="cf-subject">Subject</label>
+            <input id="cf-subject" type="text" placeholder="Project collaboration, freelance..." required />
+          </div>
+          <div class="fg">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <div id="form-status" class="form-status" style="display:none;"></div>
+          <button class="btn-p" id="send-btn" type="submit" style="align-self:flex-start;">Send Message →</button>
+        </form>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <span>© 2025 Abdul Batin Sahib. Built with ❤️ in Dhaka.</span>
+    <div style="display:flex; gap:1.25rem;">
+      <a href="https://github.com/A-B-SAHIB" target="_blank" style="color:var(--muted); text-decoration:none; font-size:.78rem;">GitHub</a>
+      <a href="https://www.linkedin.com/in/abdul-batin-sahib-603911337/" target="_blank" style="color:var(--muted); text-decoration:none; font-size:.78rem;">LinkedIn</a>
+      <a href="mailto:absahib2003@gmail.com" style="color:var(--muted); text-decoration:none; font-size:.78rem;">Email</a>
+    </div>
+  </footer>
+ 
+  <script src="js/main.js"></script>
+</body>
+</html>
